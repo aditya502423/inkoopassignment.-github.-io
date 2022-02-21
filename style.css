@@ -1,0 +1,158 @@
+.container{
+    background-color:black;
+    margin:auto;
+    border-radius: 14px;
+    height:400px;
+    width:600px;
+}
+@media screen and (max-width: 450px) {
+    .container{
+        margin:auto;
+        background-color: black;
+    height:350px;
+    border-radius: 13px;
+    width:300px;
+      
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .container{
+        margin:auto;
+        background-color: black;
+
+    height:350px;
+    width:250px;
+    border-radius: 14px;
+      
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    span{
+        padding-left:20px;
+        color:white;
+      
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    
+    span{
+        padding-left:20px;
+        color:white; 
+      
+
+  }
+}
+span{
+    padding-left:70px;
+    color:white;
+}
+
+
+
+button{
+    margin:auto;
+    background-color:black;
+    padding:10px;
+    font-size: large;
+    border:none;
+    color:white;
+}
+
+@media screen and (max-width: 450px) {
+    button{
+        margin:auto;
+        background-color:black;
+        padding:10px;
+        font-size: small;
+color:white;
+        border:none;
+  }
+}
+
+  @media screen and (max-width: 320px) {
+    
+    button{
+        margin:auto;
+        background-color:black;
+        padding:10px;
+        font-size: small;
+        border:none;
+        color:white;
+      
+
+  }
+}
+#gamecontact{
+    padding-left:20px;
+    color:white;
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+    #gamecontact{
+        padding-left:10px;
+        color:white;
+        font:small;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    
+    #gamecontact{
+        padding-left:10px;
+        color:white;
+        font:small;
+    }
+      
+
+  }
+
+
+    @media screen and (max-width: 400px) {
+        #btn{
+            background-color:lightcoral;
+            border:none;
+            color:white;
+            border-radius: 20px;
+            margin-left:5px;
+        
+            padding:8px;
+            width:60px;
+        
+        }
+      }
+    
+      @media screen and (max-width: 300px) {
+        
+        #btn{
+            background-color:lightcoral;
+            border:none;
+            color:white;
+            border-radius: 10px;
+            
+        margin-left: 5px;
+            padding:7px;
+            width:50px;
+        
+        }
+          
+    
+      }
+
+      #btn{
+        background-color:lightcoral;
+        border:none;
+        color:white;
+        border-radius: 20px;
+        margin-left:100px;
+        padding:12px;
+        width:120px;
+    }
+
+
+
